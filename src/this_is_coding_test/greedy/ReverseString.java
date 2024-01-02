@@ -17,7 +17,7 @@ public class ReverseString {
 
         int result = 0;
         String first = String.valueOf(s.charAt(0));
-        int cnt = 0;
+        int cnt = 0; // 문자가 연속된 횟수
 
         for(int i = 1; i< listS.length; i++){
             if (!listS[i].equals(first)){
