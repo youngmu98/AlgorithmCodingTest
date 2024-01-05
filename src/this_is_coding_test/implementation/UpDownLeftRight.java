@@ -22,6 +22,7 @@ public class UpDownLeftRight {
 
         for (int i = 0; i < plan.length; i++){
             int moveChoice = Arrays.asList(move).indexOf(plan[i]);
+            if (moveChoice < 1) continue; // 다른 문자가 들어왔을 경우 넘기기
             if (x + dx[moveChoice] >= 0 && x + dx[moveChoice] < n){
                 if (y + dy[moveChoice] >= 0 && y + dy[moveChoice] < n){
                     x = x + dx[moveChoice];
