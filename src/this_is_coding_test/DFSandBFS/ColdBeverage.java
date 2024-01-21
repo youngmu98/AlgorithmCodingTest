@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 음료수 얼려 먹기 Page.149
 public class ColdBeverage {
     static int n, m, result;
     static int[][] arr;
